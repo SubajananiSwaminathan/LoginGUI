@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" nodeOrientation="RIGHT_TO_LEFT" prefHeight="262.0" prefWidth="382.0" spacing="20.0" style="-fx-background-color: #7fdcef;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.designlecture1.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label fx:id="welcomeText" alignment="CENTER" prefHeight="0.0" prefWidth="342.0" text="Enter Login Credentials" textAlignment="JUSTIFY">
+      <font>
+         <Font name="System Bold Italic" size="25.0" />
+      </font>
+      <VBox.margin>
+         <Insets top="-100.0" />
+      </VBox.margin></Label>
+   <TextField alignment="TOP_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="177.0" promptText="Enter Username">
+      <VBox.margin>
+         <Insets left="-100.0" />
+      </VBox.margin>
+   </TextField>
+   <Label text="Username">
+      <font>
+         <Font size="15.0" />
+      </font>
+      <VBox.margin>
+         <Insets left="250.0" top="-40.0" />
+      </VBox.margin>
+   </Label>
+   <TextField maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="181.0" promptText="Enter Password">
+      <VBox.margin>
+         <Insets left="-100.0" />
+      </VBox.margin>
+   </TextField>
+   <Label text="Password">
+      <font>
+         <Font size="15.0" />
+      </font>
+      <VBox.margin>
+         <Insets left="250.0" top="-40.0" />
+      </VBox.margin>
+   </Label>
+   <Button mnemonicParsing="false" text="Login">
+      <VBox.margin>
+         <Insets bottom="-100.0" />
+      </VBox.margin>
+   </Button>
+</VBox>
